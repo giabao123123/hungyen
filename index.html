@@ -29,18 +29,15 @@
     <a href="#hero" class="scroll-top-button">
       <i class="fas fa-chevron-up"></i>
     </a>
-
     <aside id="backToTop">
       <a href="#hero" aria-label="Lên đầu trang">
         <span class="arrow arrow-1"></span>
         <span class="arrow arrow-2"></span>
       </a>
     </aside>
-
     <aside class="box w3-right neon-box2" style="margin-top: 2%">
       <p class="text">Chào mừng đến với tỉnh Hưng Yên!</p>
     </aside>
-
     <header class="w3-top">
       <nav class="w3-bar w3-white w3-padding w3-card">
         <a href="#home" class="w3-bar-item neon-box">Hưng Yên</a>
@@ -65,9 +62,7 @@
           <li><a href="#khihau">KHÍ HẬU</a></li>
           <li><a href="#DIEUKIENTUNHIEN">ĐIỀU KIỆN TỰ NHIÊN</a></li>
           <li>
-            <a href="#THOITIET" 
-              >DỰ BÁO THỜI TIẾT TRONG TỈNH</a
-            >
+            <a href="#THOITIET">DỰ BÁO THỜI TIẾT TRONG TỈNH</a>
           </li>
           <li><a href="#contact">DÂN CƯ</a></li>
           <li><a href="#VANHOA">VĂN HOÁ</a></li>
@@ -83,32 +78,6 @@
             >
           </li>
         </ul>
-
-        <script>
-          const menuLinks = document.querySelectorAll("#menu-list a");
-          const menuToggle = document.getElementById("menu-toggle");
-          menuLinks.forEach((link) => {
-            link.addEventListener("click", () => {
-              if (window.innerWidth <= 768) {
-                menuToggle.checked = false;
-              }
-            });
-          });
-        </script>
-        <script>
-          const audio = document.getElementById("bgMusic");
-          const btn = document.getElementById("toggleBtn");
-          btn.addEventListener("click", () => {
-            if (audio.paused) {
-              audio.play();
-              btn.textContent = "⏸ Tắt nhạc";
-            } else {
-              audio.pause();
-              btn.textContent = "▶ Phát nhạc";
-            }
-          });
-        </script>
-
         <nav
           style="
             background: linear-gradient(180deg, #ff9800, #ff5722);
@@ -148,21 +117,7 @@
           </section>
         </nav>
       </nav>
-
-      <script>
-        const menuScroll = document.querySelector(".menu-scroll");
-        const btnLeft = document.querySelector(".left-btn");
-        const btnRight = document.querySelector(".right-btn");
-        const step = 200;
-        btnRight.addEventListener("click", () => {
-          menuScroll.scrollLeft += step;
-        });
-        btnLeft.addEventListener("click", () => {
-          menuScroll.scrollLeft -= step;
-        });
-      </script>
     </header>
-
     <main class="w3-content" style="max-width: 1100px">
       <section class="w3-row w3-padding-16 w3-animate-left" id="about">
         <header>
@@ -178,7 +133,6 @@
             triển của xứ Nghệ. Trong thời kỳ độc lập tự chủ dưới các triều Ngô,
             Đinh, Tiền Lê, vùng đất này thuộc Hoan Châu.
           </p>
-
           <p>
             <strong><mark>Thời Lý – Trần – Minh – Hậu Lê</mark></strong
             ><br />
@@ -188,7 +142,6 @@
             sáp nhập thành Nghệ An thừa tuyên, sau đổi thành xứ Nghệ An; phần
             đất Hà Tĩnh ngày nay thuộc hai phủ Đức Quang và Hà Hoa.
           </p>
-
           <p>
             <strong><mark>Biến động lãnh thổ đầu triều Nguyễn</mark></strong
             ><br />
@@ -197,7 +150,6 @@
             số vùng đất phía tây được tái sáp nhập và hệ thống hành chính được
             điều chỉnh.
           </p>
-
           <p>
             <strong><mark>Thành lập tỉnh Hà Tĩnh</mark></strong
             ><br />
@@ -205,7 +157,6 @@
             An và Hà Tĩnh. Từ đây, tỉnh Hà Tĩnh chính thức được thành lập, ban
             đầu gồm hai phủ Đức Thọ và Hà Hoa, sau đổi là phủ Hà Thanh.
           </p>
-
           <p>
             <strong><mark>Thay đổi hành chính thời hiện đại</mark></strong
             ><br />
@@ -213,7 +164,6 @@
             xã Hồng Lĩnh, huyện Vũ Quang, huyện Lộc Hà, thị xã Kỳ Anh và nâng
             thị xã Hà Tĩnh lên thành phố.
           </p>
-
           <p>
             <strong><mark>Cơ cấu hành chính hiện nay</mark></strong
             ><br />
@@ -221,13 +171,12 @@
             vào thành phố Hà Tĩnh và huyện Thạch Hà. Hiện nay, tỉnh Hà Tĩnh có
             <u>1</u> thành phố, <u>2</u> thị xã và <u>9</u> huyện.
           </p>
-
           <p style="font-size: 15px">
             (nguồn thông tin:
             <a
               href="https://vi.wikipedia.org/wiki/H%C6%B0ng_Y%C3%AAn"
               target="_blank"
-              >wiki Hưng Yên</a
+              >Wikipedia Hưng Yên</a
             >
             )
           </p>
@@ -250,7 +199,6 @@
         </figure>
       </section>
       <hr />
-
       <section class="w3-row-padding w3-padding-16 w3-content" id="menu">
         <header>
           <h1 class="w3-padding-16" style="color: red; font-size: 50px">
@@ -289,7 +237,6 @@
               <u>21°02′B, 106°05′Đ</u>
             </li>
           </ul>
-
           <p>
             Lưu ý: Các điểm cực hiện chưa được công bố tọa độ chính thức; các số
             liệu trên chỉ mang tính ước lượng, dựa trên bản đồ hành chính tỉnh
@@ -333,7 +280,6 @@
         </figure>
       </section>
       <hr />
-
       <section
         class="w3-row-padding w3-padding-16 w3-content"
         id="DIEUKIENTUNHIEN"
@@ -354,7 +300,6 @@
             hình ít bị chia cắt, thuận lợi cho phát triển giao thông, cơ sở hạ
             tầng và sản xuất nông nghiệp quy mô lớn.
           </p>
-
           <p>
             <strong><mark>Thủy văn</mark></strong
             ><br />
@@ -369,7 +314,6 @@
             hè mực nước dâng cao, phù sa dồi dào, mùa đông lưu lượng nước giảm,
             xâm nhập mặn có thể sâu <u>15–20 km</u> vào đất liền.
           </p>
-
           <p>
             <strong><mark>Vùng biển và đa dạng sinh học</mark></strong
             ><br />
@@ -387,7 +331,6 @@
             thích ứng biến đổi khí hậu và tiềm năng phát triển du lịch sinh
             thái.
           </p>
-
           <p>
             <strong><mark>Tổng quan</mark></strong
             ><br />
@@ -400,13 +343,12 @@
         <p style="font-size: 15px">
           (nguồn thông tin:
           <a href="https://vi.wikipedia.org/wiki/H%C3%A0_T%C4%A9nh"
-            >wiki-Hà Tĩnh</a
+            >Wikipedia Hưng Yên</a
           >
           )
         </p>
       </section>
       <hr />
-
       <section
         class="w3-container w3-padding-16 table-responsive w3-content"
         style="overflow-x: auto"
@@ -426,7 +368,6 @@
             đến tháng 9 luôn vượt <u>25 °C</u>, trong khi mùa đông dưới
             <u>20 °C</u>.
           </p>
-
           <p>
             Lượng mưa trung bình dao động từ <u>1.500 – 2.000 mm</u>, cao dần từ
             Bắc xuống Nam, tập trung chủ yếu từ tháng 5 đến tháng 10, chiếm
@@ -436,7 +377,6 @@
             tháng 5 đến tháng 10 trung bình <u>187 giờ nắng/tháng</u>, từ tháng
             11 đến tháng 4 năm sau trung bình <u>86 giờ nắng/tháng</u>.
           </p>
-
           <p>
             Khí hậu Hưng Yên chia làm <strong>hai mùa chính</strong>:<br />
             - <strong>Mùa đông</strong> (tháng 11 – tháng 3 năm sau) với gió mùa
@@ -446,7 +386,6 @@
             chủ đạo, thời tiết nóng ẩm, mưa nhiều.
           </p>
         </article>
-
         <table
           style="
             width: 100%;
@@ -456,7 +395,7 @@
         >
           <tbody>
             <tr>
-              <th colspan="14">Dữ liệu khí hậu của tỉnh Hưng Yên (2009)</th>
+              <th colspan="14">Dữ liệu khí hậu của tỉnh Hưng Yên</th>
             </tr>
             <tr>
               <th scope="row">Tháng</th>
@@ -781,7 +720,7 @@
           <a
             href="https://vi.wikipedia.org/wiki/H%C3%A0_T%C4%A9nh"
             target="_blank"
-            >wiki-Hà Tĩnh</a
+            >Wikipedia Hưng Yên</a
           >)
         </p>
       </section>
@@ -790,6 +729,10 @@
         <h1 class="w3-padding-16" style="color: red; font-size: 50px">
           DỰ BÁO THỜI TIẾT TRONG TỈNH
         </h1>
+        <p>
+          ⚠️ Dữ liệu thời tiết hiện vẫn theo đơn vị hành chính cũ — chưa cập
+          nhật sau sáp nhập tỉnh.
+        </p>
         <div
           style="
             max-width: 760px;
@@ -813,7 +756,6 @@
           >
             Gõ tên xã / phường / thị trấn để xem dự báo thời tiết
           </p>
-
           <div
             style="position: relative; max-width: 440px; margin: 0 auto 22px"
           >
@@ -866,7 +808,6 @@
               "
             ></div>
           </div>
-
           <div
             id="tt-box"
             style="
@@ -903,7 +844,6 @@
             </div>
           </div>
         </div>
-
         <script>
           var TT_AREAS = [
             {
@@ -946,7 +886,6 @@
               parent: "Tỉnh Thái Bình cũ",
               widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/thai-binh/vu-thu?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
             },
-
             {
               name: "Thành phố Hưng Yên",
               parent: "Tỉnh Hưng Yên cũ",
@@ -1005,9 +944,7 @@
               .replace(/[\u0300-\u036f]/g, "")
               .replace(/đ/g, "d");
           }
-
           var ttFiltered = TT_AREAS.slice();
-
           function ttFilter() {
             var q = ttNorm(document.getElementById("tt-input").value.trim());
             ttFiltered = q
@@ -1018,13 +955,11 @@
             ttRender();
             document.getElementById("tt-drop").style.display = "block";
           }
-
           function ttShow() {
             ttFiltered = TT_AREAS.slice();
             ttRender();
             document.getElementById("tt-drop").style.display = "block";
           }
-
           function ttRender() {
             var dd = document.getElementById("tt-drop");
             if (!ttFiltered.length) {
@@ -1055,7 +990,6 @@
               })
               .join("");
           }
-
           function ttSelect(idx) {
             var a = TT_AREAS[idx];
             document.getElementById("tt-input").value = a.name;
@@ -1064,13 +998,10 @@
             if (a.parent) {
               locationTitle += " (" + a.parent + ")";
             }
-
             document.getElementById("tt-name").textContent = locationTitle;
             document.getElementById("tt-box").style.display = "block";
-
             var wrap = document.getElementById("tt-widget-wrap");
             var noEmbed = document.getElementById("tt-noembed");
-
             if (a.widget && a.widget.trim()) {
               wrap.innerHTML = a.widget;
               wrap.style.display = "block";
@@ -1080,18 +1011,38 @@
               wrap.style.display = "none";
               noEmbed.style.display = "block";
             }
-
             document
               .getElementById("tt-box")
               .scrollIntoView({ behavior: "smooth", block: "start" });
           }
-
           document.addEventListener("click", function (e) {
             var inp = document.getElementById("tt-input");
             var drop = document.getElementById("tt-drop");
             if (drop && e.target !== inp && !drop.contains(e.target))
               drop.style.display = "none";
           });
+          const menuScroll = document.querySelector(".menu-scroll");
+          const btnLeft = document.querySelector(".left-btn");
+          const btnRight = document.querySelector(".right-btn");
+          const step = 200;
+          btnRight.addEventListener("click", () => {
+            menuScroll.scrollLeft += step;
+          });
+          btnLeft.addEventListener("click", () => {
+            menuScroll.scrollLeft -= step;
+          });
+          const menuLinks = document.querySelectorAll("#menu-list a");
+          const menuToggle = document.getElementById("menu-toggle");
+          menuLinks.forEach((link) => {
+            link.addEventListener("click", () => {
+              if (window.innerWidth <= 768) {
+                menuToggle.checked = false;
+              }
+            });
+          });
+          function toggleMenu() {
+            document.getElementById("navMenu").classList.toggle("w3-hide");
+          }
         </script>
       </section>
       <hr />
@@ -1283,7 +1234,6 @@
             <u>1.073.400 người</u> sống ở nông thôn (<u>83,16%</u>). Dân số nam
             là <u>648.200 người</u>, dân số nữ là <u>642.600 người</u>.
           </p>
-
           <p>
             <strong><mark>Về cơ cấu dân tộc</mark></strong
             ><br />
@@ -1291,7 +1241,6 @@
             còn lại gồm một số dân tộc thiểu số như Tày, Thái, Mường... (mỗi
             nhóm dưới <u>0,3%</u>).
           </p>
-
           <p>
             <strong><mark>Tăng trưởng dân số và giới tính</mark></strong
             ><br />
@@ -1299,7 +1248,6 @@
             dân số bình quân khoảng <u>0,98%</u>, với tỷ số giới tính khoảng
             <u>100,9 nam/100 nữ</u>.
           </p>
-
           <p>
             <strong><mark>Lao động</mark></strong
             ><br />
@@ -1308,7 +1256,6 @@
             <u>25%</u> người lao động được đào tạo, cung cấp nguồn nhân lực cho
             khu công nghiệp và dịch vụ địa phương.
           </p>
-
           <p style="font-size: 15px">
             (Nguồn thông tin:
             <a
@@ -1328,7 +1275,6 @@
         </article>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="VANHOA">
         <header>
           <h1 class="w3-center" style="font-size: 50px">VĂN HOÁ, LỄ HỘI</h1>
@@ -1352,14 +1298,12 @@
             tích và cụm di tích kiến trúc như đình, chùa, đền, miếu, lăng, mộ…
             được xếp hạng di tích quốc gia.
           </p>
-
           <p>
             Hưng Yên cũng là quê hương của nhiều kiến trúc sư nổi tiếng như Tạ
             Mỹ Duật, Đoàn Văn Minh, Ngô Huy Quỳnh, tham gia thiết kế nhiều công
             trình tiêu biểu như Lễ đài Độc lập tại Quảng trường Ba Đình, Bảo
             tàng Hùng Vương, Trường Đại học Thủy Lợi, Biệt thự 28 Hàng Chuối.
           </p>
-
           <p>
             <strong><mark>Hội họa</mark></strong
             ><br />
@@ -1374,7 +1318,6 @@
             bảo vật quốc gia). Các danh họa khác gồm Lê Quốc Lộc, Trần Đình Thọ,
             Lương Xuân Nhị, Dương Hướng Minh.
           </p>
-
           <p>
             <strong><mark>Văn học</mark></strong
             ><br />
@@ -1385,7 +1328,6 @@
             quan lại và nhân vật lịch sử được dân gian nhân hóa, tôn thờ tại các
             di tích, góp phần làm phong phú văn hóa tâm linh.
           </p>
-
           <p>
             Qua các thời kỳ, Hưng Yên sản sinh nhiều danh sĩ, nhà văn, nhà thơ
             tiêu biểu. Thời phong kiến có Phạm Ngũ Lão, Nguyễn Trung Ngạn; thế
@@ -1395,7 +1337,6 @@
             văn học quan trọng như <em>Việt Nam Văn học sử yếu</em>,
             <em>Việt Nam Thi văn hợp tuyển</em>.
           </p>
-
           <h2 style="font-size: 40px">
             <strong><mark>LỄ HỘI:</mark></strong>
           </h2>
@@ -2287,7 +2228,6 @@
         </article>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="DITICH">
         <header>
           <h1 class="w3-center" style="font-size: 50px">
@@ -3199,7 +3139,6 @@
         </article>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="GIAODUC">
         <header>
           <h1 class="w3-center" style="font-size: 50px">GIÁO DỤC</h1>
@@ -3218,13 +3157,11 @@
             trường học thông minh và số hóa giáo dục, góp phần nâng cao chất
             lượng nguồn nhân lực.
           </p>
-
           <p>
             <strong><mark>Giáo dục đại học và cao đẳng</mark></strong
             ><br />
             Hưng Yên có nhiều trường đại học và cao đẳng tiêu biểu như:
           </p>
-
           <ul>
             <li>Trường Đại học Sư phạm Kỹ thuật Hưng Yên</li>
             <li>Đại học Bách khoa Hà Nội (cơ sở Hưng Yên)</li>
@@ -3243,13 +3180,11 @@
             </li>
             <li>Trường Đại học Intracom (cơ sở Hưng Yên)</li>
           </ul>
-
           <p>
             Trong quá trình phát triển, hơn 10 trường đại học đã được quy hoạch
             trong đề án Khu đô thị Đại học Phố Hiến tại thành phố Hưng Yên và
             huyện Tiên Lữ, nhưng dự án hiện đã kết thúc triển khai.
           </p>
-
           <p>
             <strong><mark>Thành tích nổi bật</mark></strong
             ><br />
@@ -3265,13 +3200,12 @@
         <p style="font-size: 15px">
           (nguồn thông tin:
           <a href="https://vi.wikipedia.org/wiki/H%C6%B0ng_Y%C3%AAn"
-            >wiki-Hưng Yên</a
+            >Wikipedia Hưng Yên</a
           >
           )
         </p>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="KINHTE">
         <br />
         <header>
@@ -3290,7 +3224,6 @@
             của vùng Bắc Bộ. Vị trí địa lý thuận lợi giúp tỉnh phát triển mạnh
             về giao thương, công nghiệp và dịch vụ.
           </p>
-
           <p>
             <mark><strong>Số liệu kinh tế sau sáp nhập 2025:</strong></mark>
             Hưng Yên có diện tích <u>2.514,81 km²</u> (xếp thứ 34), dân số
@@ -3299,7 +3232,6 @@
             <u>53.112.677 triệu VNĐ</u> (xếp thứ 10), và thu nhập bình quân
             <u>69,93 triệu VNĐ/năm</u> (xếp thứ 6).
           </p>
-
           <p>
             <mark><strong>Định hướng phát triển:</strong></mark> Tỉnh đang hướng
             tới xây dựng
@@ -3310,7 +3242,6 @@
             Bắc Bộ.
           </p>
         </article>
-
         <figure
           style="width: 80%; margin: auto"
           class="w3-center chart-container"
@@ -3321,7 +3252,6 @@
           </figcaption>
           <canvas id="grdpChartHungYen" class="w3-center"></canvas>
         </figure>
-
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script>
           const ctx = document
@@ -3387,7 +3317,6 @@
             },
           });
         </script>
-
         <p>
           <strong>Lưu ý:</strong>
           <em
@@ -3405,7 +3334,6 @@
         </p>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="AMTHUC">
         <header>
           <h1 class="w3-center" style="font-size: 50px">ẨM THỰC</h1>
@@ -4405,7 +4333,6 @@
         </ol>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="DULICH">
         <header>
           <h1 class="w3-center" style="font-size: 50px">DU LỊCH</h1>
@@ -5298,7 +5225,6 @@
         </ol>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="tiemnang">
         <header>
           <h1 class="w3-center" style="font-size: 50px">
@@ -5315,7 +5241,6 @@
             mô diện tích và dân số hợp lý hơn, tạo thuận lợi cho công tác quy
             hoạch tổng thể, quản lý đô thị và tổ chức phát triển lâu dài.
           </p>
-
           <p>
             <strong
               ><mark
@@ -5328,7 +5253,6 @@
             góp phần thúc đẩy sản xuất, kinh doanh, nâng cao đời sống người dân
             và năng lực cạnh tranh của đô thị.
           </p>
-
           <p>
             <strong
               ><mark>Phát huy giá trị lịch sử – văn hóa đặc thù</mark></strong
@@ -5339,7 +5263,6 @@
             sông Hồng”. Đây là lợi thế quan trọng để phát triển du lịch văn hóa,
             dịch vụ và quảng bá hình ảnh địa phương.
           </p>
-
           <p>
             <strong
               ><mark>Nâng cao hiệu lực, hiệu quả quản lý nhà nước</mark></strong
@@ -5349,7 +5272,6 @@
             xếp phù hợp, phát huy năng lực, kinh nghiệm, qua đó nâng cao chất
             lượng phục vụ người dân và doanh nghiệp.
           </p>
-
           <p>
             <strong><mark>Kết luận</mark></strong
             ><br />
@@ -5375,10 +5297,5 @@
     <footer class="w3-center w3-light-grey w3-padding-32">
       <p>HẾT!</p>
     </footer>
-    <script>
-      function toggleMenu() {
-        document.getElementById("navMenu").classList.toggle("w3-hide");
-      }
-    </script>
   </body>
 </html>
